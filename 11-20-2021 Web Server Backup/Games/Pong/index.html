@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Pong</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/gg.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+      <div class="header" id="header">
+<div class="color-bar"id="color-bar">
+
+</div>
+<div class="logo" id="logo">
+
+
+<a class="home" id="home" href="#intro"><img src="images/sahu.png" width="60" height="60" alt="Sahu Logo" \></a>
+</img>
+</div>
+
+<nav class="menu" id="menu">
+<a  href="#about">About</a>
+<a   href="#websites">Websites</a>
+<a  href="#games">Games</a>
+<a  href="#cool-stuff">Cool Stuff </a>
+<a  href="#">Blog</a>
+<a  href="#footer">Contact</a>
+</nav>
+</div>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Pong</div>
+		
+		
+      </div>
+	  <div class="description">
+	  <div id="game_description">
+		<p>Pong is a game played with two paddles and one ball. These paddles will hit the ball back and forward until one of these paddles fails to make the ball bounce back.
+		When you fail to hit the ball, the AI gets one point. Whoever gets 10 points wins. You can adjust the difficulty of the game easily by using the AI slider in the settings menu. </p>
+		</div>
+	<a href="https://play.google.com/store/apps/details?id=com.gamesational.pong&hl=en_US&gl=US">
+		<img src="images/google_play.png" alt="Download for Google Play" class="download_button">
+		</a>
+		<a href="https://sahu.me/Games/Pong/pong.rar">
+		<img src="images/windows.png" alt="Download for Windows" class="download_button">
+		</a>
+	
+	<h1>Comments</h1>
+	<p>You must log in to post a comment</p>
+	
+	
+	
+	
+		</div>
+		
+	
+	  </div>
+	  
+		
+		
+	
+	
+	
+  </body>
+</html>

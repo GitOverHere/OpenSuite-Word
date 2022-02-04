@@ -1,0 +1,767 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1920px;
+     height: 8000px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #Layer0 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1920px;
+     height: 8000px;
+     z-index:1;
+} 
+
+ #Rectangle5 
+{ 
+     left: 172px; 
+     top: 1749px; 
+     position: absolute; 
+     width: 1582px;
+     height: 297px;
+     z-index:2;
+} 
+
+ #Rectangle1 
+{ 
+     left: -1px; 
+     top: -14px; 
+     position: absolute; 
+     width: 1922px;
+     height: 125px;
+     z-index:3;
+} 
+
+ #RoundedRectangle1 
+{ 
+     left: 1322px; 
+     top: 18px; 
+     position: absolute; 
+     width: 127px;
+     height: 72px;
+     z-index:4;
+} 
+
+ #RoundedRectangle2 
+{ 
+     left: 1496px; 
+     top: 18px; 
+     position: absolute; 
+     width: 134px;
+     height: 72px;
+     z-index:5;
+} 
+
+ #SignUp 
+{ 
+     left: 1521px; 
+     top: 43px; 
+     position: absolute; 
+     width: 86px;
+     height: 24px;
+     z-index:6;
+} 
+
+ #Login 
+{ 
+     left: 1357px; 
+     top: 43px; 
+     position: absolute; 
+     width: 58px;
+     height: 24px;
+     z-index:7;
+} 
+
+ #bottomheader 
+{ 
+     left: -4px; 
+     top: 108px; 
+     position: absolute; 
+     width: 1926px;
+     height: 221px;
+     z-index:8;
+} 
+
+ #Rectangle2 
+{ 
+     left: 1058px; 
+     top: 160px; 
+     position: absolute; 
+     width: 580px;
+     height: 103px;
+     z-index:9;
+} 
+
+ #Layer3 
+{ 
+     left: 437px; 
+     top: 29px; 
+     position: absolute; 
+     width: 43px;
+     height: 49px;
+     z-index:10;
+} 
+
+ #Layer1 
+{ 
+     left: 200px; 
+     top: 33px; 
+     position: absolute; 
+     width: 46px;
+     height: 45px;
+     z-index:11;
+} 
+
+ #Layer2 
+{ 
+     left: 302px; 
+     top: 14px; 
+     position: absolute; 
+     width: 79px;
+     height: 79px;
+     z-index:12;
+} 
+
+ #logo 
+{ 
+     left: 126px; 
+     top: 152px; 
+     position: absolute; 
+     width: 120px;
+     height: 120px;
+     z-index:13;
+} 
+
+ #TOPFRAGR 
+{ 
+     left: 287px; 
+     top: 184px; 
+     position: absolute; 
+     width: 341px;
+     height: 53px;
+     z-index:14;
+} 
+
+ #FindGamesGamerGearan 
+{ 
+     left: 1107px; 
+     top: 201px; 
+     position: absolute; 
+     width: 390px;
+     height: 22px;
+     z-index:15;
+} 
+
+ #Shape1 
+{ 
+     left: 1636px; 
+     top: 156px; 
+     position: absolute; 
+     width: 115px;
+     height: 113px;
+     z-index:16;
+} 
+
+ #GO 
+{ 
+     left: 1663px; 
+     top: 199px; 
+     position: absolute; 
+     width: 61px;
+     height: 27px;
+     z-index:17;
+} 
+
+ #Rectangle3 
+{ 
+     left: -1px; 
+     top: 323px; 
+     position: absolute; 
+     width: 1921px;
+     height: 74px;
+     z-index:18;
+} 
+
+ #XboxOne 
+{ 
+     left: 145px; 
+     top: 350px; 
+     position: absolute; 
+     width: 108px;
+     height: 19px;
+     z-index:19;
+} 
+
+ #PS4 
+{ 
+     left: 547px; 
+     top: 349px; 
+     position: absolute; 
+     width: 39px;
+     height: 18px;
+     z-index:20;
+} 
+
+ #NintendoSwitch 
+{ 
+     left: 673px; 
+     top: 349px; 
+     position: absolute; 
+     width: 179px;
+     height: 19px;
+     z-index:21;
+} 
+
+ #OldSkoolGames 
+{ 
+     left: 916px; 
+     top: 349px; 
+     position: absolute; 
+     width: 188px;
+     height: 19px;
+     z-index:22;
+} 
+
+ #Phones 
+{ 
+     left: 1186px; 
+     top: 348px; 
+     position: absolute; 
+     width: 79px;
+     height: 19px;
+     z-index:23;
+} 
+
+ #Clothes 
+{ 
+     left: 1386px; 
+     top: 349px; 
+     position: absolute; 
+     width: 82px;
+     height: 19px;
+     z-index:24;
+} 
+
+ #Deals 
+{ 
+     left: 1571px; 
+     top: 349px; 
+     position: absolute; 
+     width: 58px;
+     height: 19px;
+     z-index:25;
+} 
+
+ #Xbox360 
+{ 
+     left: 357px; 
+     top: 350px; 
+     position: absolute; 
+     width: 103px;
+     height: 19px;
+     z-index:26;
+} 
+
+ #Layer6 
+{ 
+     left: 183px; 
+     top: 645px; 
+     position: absolute; 
+     width: 1555px;
+     height: 849px;
+     z-index:27;
+} 
+
+ #Layer5 
+{ 
+     left: 1256px; 
+     top: 760px; 
+     position: absolute; 
+     width: 384px;
+     height: 619px;
+     z-index:28;
+} 
+
+ #Shape2 
+{ 
+     left: 730px; 
+     top: 1487px; 
+     position: absolute; 
+     width: 528px;
+     height: 81px;
+     z-index:29;
+} 
+
+ #Rectangle4 
+{ 
+     left: 268px; 
+     top: 797px; 
+     position: absolute; 
+     width: 772px;
+     height: 500px;
+     z-index:30;
+} 
+
+ #OverwatchLEGENDARYED 
+{ 
+     left: 332px; 
+     top: 866px; 
+     position: absolute; 
+     width: 563px;
+     height: 127px;
+     z-index:31;
+} 
+
+ #Ellipse1 
+{ 
+     left: 837px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:32;
+} 
+
+ #Ellipse4 
+{ 
+     left: 1000px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:33;
+} 
+
+ #Ellipse5 
+{ 
+     left: 1055px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:34;
+} 
+
+ #Ellipse6 
+{ 
+     left: 1110px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:35;
+} 
+
+ #Ellipse2 
+{ 
+     left: 890px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:36;
+} 
+
+ #Ellipse3 
+{ 
+     left: 947px; 
+     top: 1520px; 
+     position: absolute; 
+     width: 15px;
+     height: 15px;
+     z-index:37;
+} 
+
+ #RoundedRectangle3 
+{ 
+     left: 505px; 
+     top: 1126px; 
+     position: absolute; 
+     width: 274px;
+     height: 97px;
+     z-index:38;
+} 
+
+ #SHOPNOW 
+{ 
+     left: 554px; 
+     top: 1162px; 
+     position: absolute; 
+     width: 174px;
+     height: 24px;
+     z-index:39;
+} 
+
+ #DEALSFORTHEWIN 
+{ 
+     left: 311px; 
+     top: 1863px; 
+     position: absolute; 
+     width: 869px;
+     height: 70px;
+     z-index:40;
+} 
+
+ #RoundedRectangle4 
+{ 
+     left: 1320px; 
+     top: 1833px; 
+     position: absolute; 
+     width: 278px;
+     height: 132px;
+     z-index:41;
+} 
+
+ #Checkem 
+{ 
+     left: 1368px; 
+     top: 1884px; 
+     position: absolute; 
+     width: 184px;
+     height: 27px;
+     z-index:42;
+} 
+
+ #TODAY39sBESTOFFERS 
+{ 
+     left: 430px; 
+     top: 2298px; 
+     position: absolute; 
+     width: 977px;
+     height: 76px;
+     z-index:43;
+} 
+
+ #Rectangle6 
+{ 
+     left: 222px; 
+     top: 2556px; 
+     position: absolute; 
+     width: 662px;
+     height: 689px;
+     z-index:44;
+} 
+
+ #Rectangle6_0 
+{ 
+     left: 216px; 
+     top: 3412px; 
+     position: absolute; 
+     width: 662px;
+     height: 689px;
+     z-index:45;
+} 
+
+ #Rectangle6_1 
+{ 
+     left: 1055px; 
+     top: 3412px; 
+     position: absolute; 
+     width: 662px;
+     height: 689px;
+     z-index:46;
+} 
+
+ #Layer14 
+{ 
+     left: 414px; 
+     top: 3492px; 
+     position: absolute; 
+     width: 257px;
+     height: 328px;
+     z-index:47;
+} 
+
+ #Rectangle7 
+{ 
+     left: 1073px; 
+     top: 2556px; 
+     position: absolute; 
+     width: 621px;
+     height: 689px;
+     z-index:48;
+} 
+
+ #Layer10 
+{ 
+     left: 304px; 
+     top: 2630px; 
+     position: absolute; 
+     width: 477px;
+     height: 300px;
+     z-index:49;
+} 
+
+ #RoundedRectangle5 
+{ 
+     left: 424px; 
+     top: 3130px; 
+     position: absolute; 
+     width: 227px;
+     height: 82px;
+     z-index:50;
+} 
+
+ #RoundedRectangle5_0 
+{ 
+     left: 429px; 
+     top: 3972px; 
+     position: absolute; 
+     width: 227px;
+     height: 82px;
+     z-index:51;
+} 
+
+ #RoundedRectangle5_1 
+{ 
+     left: 1291px; 
+     top: 3972px; 
+     position: absolute; 
+     width: 227px;
+     height: 82px;
+     z-index:52;
+} 
+
+ #BUYNOW 
+{ 
+     left: 1348px; 
+     top: 4001px; 
+     position: absolute; 
+     width: 126px;
+     height: 20px;
+     z-index:53;
+} 
+
+ #RoundedRectangle5_2 
+{ 
+     left: 1293px; 
+     top: 3130px; 
+     position: absolute; 
+     width: 227px;
+     height: 82px;
+     z-index:54;
+} 
+
+ #BUYNOW_0 
+{ 
+     left: 1350px; 
+     top: 3162px; 
+     position: absolute; 
+     width: 111px;
+     height: 18px;
+     z-index:55;
+} 
+
+ #BUYNOW_1 
+{ 
+     left: 482px; 
+     top: 3164px; 
+     position: absolute; 
+     width: 111px;
+     height: 18px;
+     z-index:56;
+} 
+
+ #BUYNOW_2 
+{ 
+     left: 491px; 
+     top: 4004px; 
+     position: absolute; 
+     width: 111px;
+     height: 18px;
+     z-index:57;
+} 
+
+ #500GBXBOXoneNOKINECT 
+{ 
+     left: 304px; 
+     top: 3069px; 
+     position: absolute; 
+     width: 487px;
+     height: 39px;
+     z-index:58;
+} 
+
+ #THEOUTERWORLDS 
+{ 
+     left: 378px; 
+     top: 3864px; 
+     position: absolute; 
+     width: 329px;
+     height: 27px;
+     z-index:59;
+} 
+
+ #GEARS5 
+{ 
+     left: 1322px; 
+     top: 3864px; 
+     position: absolute; 
+     width: 139px;
+     height: 27px;
+     z-index:60;
+} 
+
+ #layer_59993999 
+{ 
+     left: 450px; 
+     top: 3907px; 
+     position: absolute; 
+     width: 184px;
+     height: 35px;
+     z-index:61;
+} 
+
+ #layer_59993999_0 
+{ 
+     left: 1321px; 
+     top: 3907px; 
+     position: absolute; 
+     width: 184px;
+     height: 35px;
+     z-index:62;
+} 
+
+ #Layer15 
+{ 
+     left: 1272px; 
+     top: 3497px; 
+     position: absolute; 
+     width: 251px;
+     height: 323px;
+     z-index:63;
+} 
+
+ #PlaySTATION4500GB 
+{ 
+     left: 1209px; 
+     top: 3063px; 
+     position: absolute; 
+     width: 380px;
+     height: 39px;
+     z-index:64;
+} 
+
+ #Layer13 
+{ 
+     left: 1168px; 
+     top: 2610px; 
+     position: absolute; 
+     width: 461px;
+     height: 432px;
+     z-index:65;
+} 
+
+ #TOPITEMS 
+{ 
+     left: 607px; 
+     top: 4396px; 
+     position: absolute; 
+     width: 692px;
+     height: 107px;
+     z-index:66;
+} 
+
+ #Rectangle9 
+{ 
+     left: 288px; 
+     top: 4739px; 
+     position: absolute; 
+     width: 672px;
+     height: 514px;
+     z-index:67;
+} 
+
+ #Rectangle9_0 
+{ 
+     left: 1010px; 
+     top: 4739px; 
+     position: absolute; 
+     width: 671px;
+     height: 514px;
+     z-index:68;
+} 
+
+ #Rectangle9_1 
+{ 
+     left: 285px; 
+     top: 5283px; 
+     position: absolute; 
+     width: 671px;
+     height: 514px;
+     z-index:69;
+} 
+
+ #Rectangle9_2 
+{ 
+     left: 1010px; 
+     top: 5283px; 
+     position: absolute; 
+     width: 671px;
+     height: 514px;
+     z-index:70;
+} 
+
+ #Rectangle9_3 
+{ 
+     left: 294px; 
+     top: 5851px; 
+     position: absolute; 
+     width: 671px;
+     height: 514px;
+     z-index:71;
+} 
+
+ #Rectangle9_4 
+{ 
+     left: 1013px; 
+     top: 5854px; 
+     position: absolute; 
+     width: 671px;
+     height: 514px;
+     z-index:72;
+} 
+
+ #Shape3 
+{ 
+     left: -1px; 
+     top: 7136px; 
+     position: absolute; 
+     width: 1925px;
+     height: 861px;
+     z-index:73;
+} 
+
+ #Rectangle10 
+{ 
+     left: -4px; 
+     top: 7891px; 
+     position: absolute; 
+     width: 1928px;
+     height: 110px;
+     z-index:74;
+} 
+
+ #CopyrightTopfragr201 
+{ 
+     left: 47px; 
+     top: 7930px; 
+     position: absolute; 
+     width: 357px;
+     height: 32px;
+     z-index:75;
+} 

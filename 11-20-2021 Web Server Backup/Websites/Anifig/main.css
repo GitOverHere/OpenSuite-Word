@@ -1,0 +1,234 @@
+@import "Helvetica.otf";
+
+html body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Helvetica",sans-serif;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffc845;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+
+
+header {
+	width: 100%;
+}
+
+
+.title {
+	color: #ffb000;
+}
+
+.button {
+	padding: 1.5vh;
+	background-color: #ffc845;
+	color: white;
+	text-decoration: none;
+	border-radius: 1vh;
+	font-size: 75%;
+}
+
+.button a:hover{
+	text-decoration: white;
+	background-color: #ffb000;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+
+.header {
+	display: flex;
+	float: center;
+	height: 8vh;
+	width: 100%;
+	background-color: #fd5c63;
+	color: white;
+}
+
+.logo>img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.menu {
+	float: center;
+	width: 70%;
+	display: flex;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.header-links {
+	width: 75%;
+	height: 100%;
+	display: flex;
+}
+
+.link {
+	height: 100%;
+	width: calc(100% / 6);
+	text-align: center;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+
+.link>a {
+	vertical-align: center;
+}
+
+
+.link:hover{
+	background-color: white;
+	transition: 0.3s ease all;
+	color: #fd5c63;
+}
+
+
+.logo {
+	width: 25%;
+	height: 100%;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	font-size: 200%;
+	background-image: url("img/anime.jpg");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	margin-top: 5vh;
+	align-content: center;
+	color: white;
+	margin-left: 3vh;
+	width: 60%;
+	height: 50%;
+}
+
+.container-1 {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+@keyframes grd {
+	0% {linear-gradient(#e66465, #9198e5);}
+	100% {linear-gradient(#9198e5, #e66465);}
+}
+
+.lots {
+	animation-name: grd;
+	padding: 4vh;
+	width: 100%;
+	height: 20%;
+	
+}
+
+.features {
+	display: flex;
+	width: 100%;
+	height: 40%;
+}
+
+
+.plan {
+	background-color: white;
+	color: black;
+	
+}
+
+
+.footer {
+	background-color: #ffc845 ;
+	color: white;
+	width: 100%;
+	height: 50%;
+	text-decoration: none;
+	padding: 1vh 1vh 1vh 1vh;
+}
+
+
+
+.about {
+	width: 100%;
+	height: 80%;
+	font-size: 200%;
+	padding: 2vh 1vh 1vh 1vh;
+	display: flexbox;
+}
+
+.desc {
+	width: 100%;
+	height: 30%;
+	font-size: 150%;
+	padding: 2vh 1vh 1vh 1vh;
+}
+
+
+.features {
+	width: 100%;
+	height: 50%;
+	background-image: url("img/yellow_bg.jpg");
+}
+
+.container-2 {
+	margin-top: 4vh;
+	margin-bottom: 2vh;
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.lots {
+	width: 100%;
+	height: 50%;
+	background-image: url("img/yellow_bg.jpg");
+}
+
+
+.plan {
+	background-color: white;
+	width: 30%;
+	height: 100%;
+	padding: 1vh;
+}
+
+.possibiliites {
+	width: 100%;
+	height:
+	
+}
+
+
+
+
+
+

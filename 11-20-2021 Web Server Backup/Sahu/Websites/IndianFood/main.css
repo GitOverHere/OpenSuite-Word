@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto:300&display=swap');
+
+
+html body {
+	padding: 0px;
+	margin: 0;
+}
+
+h1 {
+	font-family: Lobster;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.black{
+	color: black;
+}
+
+.nav-links a:hover{
+color: red;
+transition: 0.3s ease all;
+-webkit-transition: 0.3s ease all;	
+}
+
+
+
+.logo{
+	float:left;
+	width: 10%;
+	
+}
+
+
+
+.header{
+	padding-top: 0px;
+	background-color: #ffc20e;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+.nav-links{
+	width: 50%;
+	float: center;
+	padding-top: 20px;
+	padding-left: 200px; 
+	
+}
+
+.nav-links a {
+	padding: 30px 30px 30px 30px;
+	
+}
+
+
+.my-cart{
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+
+
+.intro{
+width: 100%;
+	height: 800px;
+	background-image: url('Images/backgrounds/naan.jpg');
+	color: white;
+	background-size: cover;
+	font-size: 150%;	
+	
+	
+}
+
+.intro-container h1{
+	font-size: 200%;
+}
+
+
+
+
+.promotion1 {
+	width: 100%;
+	height: 800px;
+	background-image: url('Images/backgrounds/veg-thali.jpg');
+	color: white;
+	background-size: cover;
+	font-size: 150%;
+	
+}
+
+.promotion2 {
+	width: 100%;
+	height: 800px;
+	background-image: url('Images/backgrounds/sweets.jpg');
+	color: white;
+	background-size: cover;
+	font-size: 150%;
+	
+}
+
+.promotion3 {
+	width: 100%;
+	height: 800px;
+	background-image: url('Images/backgrounds/veg-thali.jpg');
+	color: white;
+	background-size: cover;
+	font-size: 150%;
+	
+}
+
+.promotion1 h1{
+	font-size: 200%;
+}
+.promotion2 h1{
+	font-size: 200%;
+}
+.promotion3 h1{
+font-size: 200%;
+}
+
+.fancy-title {
+	font-family: Lobster;
+	color: #ffc20e;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+
+
+
+
+.intro-container {
+	padding-top: 10%;
+	text-align: center;
+}
+
+.p1-container {
+	padding-top: 10%;
+	text-align: center;
+}
+
+.p2-container {
+	padding-top: 10%;
+	text-align: center;
+}
+.p3-container {
+	padding-top: 10%;
+	text-align: center;
+}
+
+
+
+.menu{
+	width: 100%;
+	height: 1000px;
+}
+
+.menu-container{
+
+	display: grid;
+	grid-column-gap: 50px;
+	grid-template-columns: auto auto auto;
+	background-color: white;
+	padding: 50px;
+	background-color: white;
+	
+
+}
+.menu-container .button {
+	color: black;
+	text-align: center;
+	width: 20%;
+align-content: center;
+}
+
+.menu-container .button:hover {
+	color: white;
+}
+
+
+
+
+
+
+.item{
+	background: #562e19; /* Old browsers */
+background: -moz-linear-gradient(top, #562e19 0%, #a25016 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #562e19 0%,#a25016 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #562e19 0%,#a25016 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#562e19', endColorstr='#a25016',GradientType=0 ); /* IE6-9 */
+color: white;
+height: 50px;
+padding-top: 20px;
+float: right;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.button{
+	color: white;
+	text-decoration: none;
+	border: 3px solid #a25016;
+	padding: 20px 20px 20px 20px;
+	
+}
+.button:hover{
+	transition: 0.3s ease all;
+	background-color: #a25016;
+}
+
+.button2{
+	
+	color: black;
+	text-decoration: none;
+	border: 3px solid #a25016;
+	padding: 20px 20px 20px 20px;
+	align-content: center;
+
+	
+}
+.button2:hover{
+	color: white;
+	transition: 0.3s ease all;
+	background-color: #a25016;
+}
+
+.footer {
+	background-color: #13232F;
+	width: 100%;
+	color:white;
+	text-decoration: none;
+	height: 35%;
+}
+
+.footer button{
+	align-content: center;
+	background-color: none;
+	color: white;
+	width: 30%;
+	text-decoration: none;
+}
+
+.col1{
+width:33%;
+float:left;
+text-decoration: none;
+}
+
+.col1 a{
+	text-decoration: none;
+}
+
+
+
+
+.col2{
+width:33%;
+float:left;
+font-size: 25px;
+
+}
+
+.col2 a {
+	text-decoration: none;
+color: black;
+}
+
+
+
+
+.col3{
+width:33%;
+float:left;
+font-size: 25px;
+
+}
+
+.col3 a{
+text-decoration: none;
+color: black;
+}
+
+.col1 a:hover{
+	color:  #ffc20e;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+
+.col2 a:hover{
+	color:  #ffc20e;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+.col3 a:hover{
+	color:  #ffc20e;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+}
+
+
+
+.social_media{
+padding: 10px;
+}	
+		
+
+

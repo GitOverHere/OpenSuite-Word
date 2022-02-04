@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+html body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: #2C96DF;
+display: flex;
+font-family: 'Open Sans', sans-serif;
+outline: none;
+justify-content: center;
+	align-content: center;
+}
+
+
+
+
+#form {
+	width: 40%;
+ margin: 0 auto;
+ background-color: white;
+	padding: 4vh;
+	display: flex;
+	align-content: flex-start;
+	
+}
+.image {
+	display: flex;
+	height: 100%;
+	width: 30%;
+	align-content: center;
+	justify-content: center;
+	margin-right: 2vh;
+}
+
+.form-container {
+	display: block;
+    height: 100%;
+	width: 70%;
+	
+}
+
+.image img {
+    height: 100%;
+	width: 90%;
+}
+
+.button {
+padding: 2vh;
+background-color: transparent;
+margin: 0 auto;
+padding-top: 2vh;
+color:  #2C96DF;
+border: 3px solid #2C96DF;
+border-radius: 5px;
+}
+
+.button:hover {
+	padding: 2vh;
+background-color: #2C96DF;
+margin: 0 auto;
+padding-top: 2vh;
+color:  white;
+border: 3px solid #2C96DF;
+border-radius: 5px;
+transition: 0.3s ease;
+-webkit-transition: 0.3s ease;
+-moz-transition: 0.3s ease;
+}
+
+.button:active {
+	background-color: #2C9FFF;
+}
+
+.error {
+	color: red;
+}
+
+
+
+.field {
+	padding: 0.5vh;
+background-color: transparent;
+padding-top: 2vh;
+color:  #2C96DF;
+border: 3px solid grey;
+border-radius: 5px;
+}
+
+.field:focus {
+	padding-right: 1vh;
+	border: 3px solid #2C96DF;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+	
+}
+
+
+.textarea-field {
+	margin-left: 3vh;
+	width: 80%;
+background-color: transparent;
+margin: 0 auto;
+padding-top: 2vh;
+color:  grey;
+border: 3px solid grey;
+border-radius: 5px;
+	
+}
+
+.textarea-field:focus {
+	border: 3px solid #2C96DF;
+}
+
+#appointment {
+	padding-top: 1vh;
+	
+}
+
+#end {
+	display: block;
+	
+}
+
+label {
+	float; left;
+}
+
+input textarea { margin-bottom: 1vh; }
+
+
+
+
+

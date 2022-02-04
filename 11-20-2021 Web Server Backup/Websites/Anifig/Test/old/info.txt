@@ -1,0 +1,12 @@
+This is a website that you can use to
+turn yourself into a virtual youtuber.
+You can choose from a variety of 
+different waifus. From Hatsune Miku, to
+Megumin, we are sure to have what you want.
+The app works by utilizing the TensorFlow.js 
+API to detect head, eye, and facial movements
+and move the character accordingly. It requires
+no additional software or hardware, only a
+web browser. You may use a recording/streaming 
+software program such as OBS to record your character
+doing things.  

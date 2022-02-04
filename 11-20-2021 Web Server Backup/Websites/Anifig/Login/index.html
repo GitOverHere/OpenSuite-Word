@@ -1,0 +1,97 @@
+<html lang=en>
+<head>
+<title>Login</title>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Login to Anifig here">
+  <meta name="author" content="Sahu Enterprises">
+  <meta name="generator" content="Supportlabs Website Builder">
+  <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico">
+  <link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+<div class="content">
+<div class=background>
+
+</div>
+
+<div class="login-register">
+<div class="login">
+<h1 class="title">Login</h1>
+<form>
+<input type="text" placeholder="Email Address" class="field" id="email">
+
+<input type="password" placeholder="Email Address" class="field" id="password">
+
+<input type="checkbox" class="check promotion" name="remember-me" checked>
+<label for="remember-me">Send me promotional emails from time to time.</label>
+
+
+</form>
+<a class="login button">Login</a> 
+<script>
+function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+
+ function renderButton() {
+      gapi.signin2.render('google-login', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  
+
+<a class=button id="google-login">Login</a>
+</div>
+<div class=register>
+<h1 class="title">Sign Up</h1>
+<form>
+<input type="text" placeholder="Email Address" class="field" id="email" required>
+<input type="password" placeholder="Password" class="field" id="password" required>
+<input type="password" placeholder="Confirm Password" class="field" id="confirm-password" required>
+<input type="checkbox" class="check promotion" name="promotion" checked>
+<label for="promotion">Send me promotional emails from time to time.</label>
+</form>
+<a class=button id="signup-button">Sign Up</a>
+</div>
+<div class="forgot">
+<h1 class="title">Forgot Password?</h1>
+
+<p>Enter  your email address to reset your password.</p>
+<form>
+<input type="text" placeholder="Email Address" class="field" id="email" required>
+</form>
+<a class=button id="reset">Reset</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
+
+</body>
+</html>

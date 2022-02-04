@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+background-image: url(../img/sky.jpg);
+background-repeat: repeat-x;
+}
+h1 {
+	text-align: center;
+	font-size: 100px;
+	line-height: 200px;
+	font-family: 'Oswald', sans-serif;
+	 margin: auto;
+	 	padding-top: 140px;
+}
+
+.form_container{
+text-align: center;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+input{
+	margin: auto;
+	align: center;
+	width: 80%;
+	height: 100px;
+	background-color: transparent;
+	font-size: 50px;
+	border: 3px solid black;
+}
+
+input:focus{
+	transition: 0.5s ease;
+	border: 3px solid #1F618D;
+}
+
+select, textarea{
+	margin: auto;
+	align: center;
+    color: black;
+		opacity: 1;
+}
+.form_container button{
+	font-size: 50px;
+	height: 100px;
+	width: 20%;
+	background-color: transparent;
+	border: 3px solid #1F618D;
+	border-radius: 3px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+button:hover{
+	transition: 0.5s ease;
+	background-color: #1F618D;
+}

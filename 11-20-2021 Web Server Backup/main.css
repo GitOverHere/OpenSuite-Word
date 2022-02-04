@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300|Roboto:700');
+
+html body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-style: normal;
+}
+
+a{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	cursor: pointer;
+	color: white;
+}
+
+#color-bar{
+	width: 100%;
+	height: 5px;
+	background-color: #3fbcef;
+}
+
+#header{
+	position: fixed;
+	width: 100%;
+	height: 9%;
+	background-color: transparent;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	
+	color: white;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+.menu {
+	margin-right: 5vh;
+	overflow: hidden;
+}
+
+#header a:hover{
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease all;
+	text-decoration: underline;
+	text-decoration-color: #3fbcef;
+}
+
+
+
+/* #header-scrolled{
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	color: grey;
+	background-color: black;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+}
+*/
+
+/*#header-scrolled a:hover{
+	color: red;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	
+}
+*/
+
+input[type=submit] {
+font-size: 1px;
+	
+}
+
+
+
+#menu{
+	font-size: 125%;
+	float: right;
+	padding-top: 25px;
+
+}
+
+.menu {
+	float: right;
+	
+}
+
+#menu a{
+	padding-left:30px;
+	text-decoration: none;
+}
+	
+#logo{
+	margin-top: 0.5vh;
+	float:left;
+}
+
+#about {
+	height: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: inline-block;
+}
+
+#about h1{
+	text-align: center;
+	color: #3fbcef;
+	font-size: 400%;
+	
+}
+
+
+
+#about p{
+	font-size: 125%;
+	color: black;
+}
+#about-text{
+    width:60%;
+	height: 500px;
+	float: right;
+	display: inline-block;
+}
+
+
+#sahu{
+	width: 20%;
+	height: 500px;
+	float; left;
+}
+
+
+#intro {
+	height: 1280px;
+  width: 100%;
+  margin: auto;
+  background-image: url("images/space.jpg");
+  display: table;
+  top: 0;
+  background-size: cover;
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  
+}
+
+#intro-content {
+	padding-top: 20%;
+	color: white;
+}
+
+#websites {
+	background-color: #3fbcef;
+	height: 100% !important;
+	width: 100%;
+  text-align:center;
+  margin:auto;
+  padding:0;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 2vh;
+  
+}
+
+#websites h1{
+	text-align: center;
+	color: white;
+	font-size: 400%;
+}
+
+
+#websites p {
+	text-align: center;
+	color: white;
+	font-size: 125%;
+}
+#games {
+	display: grid;
+	background-image: url("images/gaming_setup.jpg");
+	height: auto;
+	width: 100%;
+	background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  padding-bottom: 40px;
+  
+}
+
+#games h1{
+	color: white;
+	font-size: 4vw;
+	text-align: center;
+	
+}
+
+#games p{
+	font-size: 1.5vw;
+	color: white;
+	text-align: center;
+	
+}
+
+.details h2 {
+	color: white;
+}
+
+
+.website-grid {
+	padding-top: 2vh;
+	margin: 0 auto;
+	display: grid;
+	width: 80%;
+	height: 60%;
+	margin-bottom: 4vh;
+	 grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 15%;
+  grid-row-gap: 10%;
+  clear: both;
+   overflow: hidden;
+   padding-bottom: 4vh;
+}
+
+.website-grid div {
+	background-size: cover; 
+	width: 100%;
+	height: 100%;
+	
+}
+
+.details {
+	overflow: hidden;
+	visibility: hidden;
+	background-color: rgba(11, 154, 202, 0.57);
+}
+
+.website:hover > .details {
+	visibility: visible;
+	animation-name: wow;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+	
+}
+
+@keyframes wow {
+	0% {height: 0%; width: 100%;}
+	100% {width: 100%; height: 100%;}
+	
+}
+
+.a {
+	background-image: url("images/Websites/2.jpg");
+	
+}
+.b {
+	background-image: url("images/Websites/2.jpg");
+}
+.c {
+	background-image: url("images/Websites/1.jpg");
+}
+.d {
+	background-image: url("images/Websites/2.jpg");
+}
+.e {
+	background-image: url("images/Websites/1.jpg");
+}
+.f {
+	background-image: url("images/Websites/2.jpg");
+}
+
+.game-container{
+	height: 100%;
+	width: 100%;
+	margin: 2vh 0vh 2vh 0vh;
+}
+
+.pong{
+	
+	background-color: rgba(0, 0, 128,0.7);
+	float: left;
+	width: 33%;
+	height: 100%;
+	word-wrap: break-word;
+	
+}
+.gunsync{
+	float: left;
+	width: 34%;
+	height: 100%;
+	background-color: rgba(2, 206, 70,0.7); 
+	word-wrap: break-word
+
+}
+
+.inertia-drift{
+	float: left;
+	width: 33%;
+	height: 100%;
+	background-color: rgba(255, 0, 0,0.7); 
+	word-wrap: break-word
+	
+}
+
+.play {
+	padding: 20px;
+	width: 20%;
+	background-color: transparent;
+	color: white;
+	border: solid 3px white;
+	outline:none;
+	font-size: 150%;
+	word-wrap: break-word;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	display: block;
+    margin: 0 auto;
+	border-radius: 10px;
+	font-size: 1.9vh;
+}
+
+.play:hover {
+	background-color: white;
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	color: black;
+}
+
+#cool-stuff{
+	width: 100%;
+	height: 700px;
+}
+
+#cool-stuff h1{
+	text-align: center;
+	color: #3fbcef;
+	font-size: 400%;
+	
+}
+
+#cool-stuff p{
+	text-align: center;
+	font-size: 125%;
+	color: black;
+}
+
+#footer{
+	background-color: #13232F;
+	color: white;
+	padding: 1vh;
+}
+
+#footer h1{
+	font-size: 200%;
+}
+
+#social-media{
+float: right;
+}
+
+#contact(){
+	float: left;
+	
+}
+
+#contact input{
+	height: 30px;
+	width: 30%;
+}
+
+#contact button {
+	padding: 1vh;
+	font-size: 120%;
+	color: white;
+	background-color: transparent;
+	border: solid 3px #3fbcef;
+	width: 30%;
+	outline:none;
+}
+
+#contact h1{
+    font-size: 200%;
+}
+
+#contact button:hover{
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	background-color: #3fbcef;
+}
+
+input {
+	background-color: transparent;
+	color: white;
+	border: solid 2px white;
+	padding: 1vh 0vh 1vh 1vh;
+	
+}
+
+input:focus {
+	border: solid 2px #3fbcef;
+	color: white;
+	transition: 0.3s ease;
+}
+
+textarea {
+	background-color: transparent;
+	color: white;
+	border: solid 2px white;
+	width: 50%;
+	padding: 1vh 0vh 1vh 1vh;
+}
+
+textarea:focus {
+	border: solid 2px #3fbcef;
+	color: white;
+	transition: 0.3s ease;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3fbcef; 
+  border-radius: 5px;
+}
+
+

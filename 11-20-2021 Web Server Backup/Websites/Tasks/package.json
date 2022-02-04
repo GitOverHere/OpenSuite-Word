@@ -1,0 +1,20 @@
+{
+  "name": "tasklist",
+  "version": "1.0.0",
+  "description": "A simple task app",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^4.0.7",
+    "electron-forge": "^5.2.4",
+    "electron-titlebar-windows": "^3.0.0",
+    "make": "^0.8.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.1.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GitOverHere",
+  "license": "MIT"
+}

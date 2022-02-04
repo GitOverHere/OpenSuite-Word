@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>MapDemo</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta name="title" content="Nukesim - Test Nuclear Weapons">
+<meta name="description" content="Test famous nuclear weapons here and simulate their effects.">
+<meta name="tags" content="nukes,nuclear war,nuclear weapons, weapons, mad, uranium ,deterium, tritium">
+<meta name="author" content="sahu.me">
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbfbN3mBxy0SO7lJ1CGPhIh1nIKtYa3zo&libraries=places&?sensor=false">
+</script>
+
+</head>
+<body>
+
+
+<div id="map"> </div>
+
+<div id="content">
+
+<img src="img/logo.png" height="10%" width="50%">
+
+<div class="container" id="slide1">
+<h3>Step 1</h3>
+<h3>Type in a location </h3>
+<input type="text" id="autocomplete" name="location">
+<p> Or drag the pin </p>
+<div class="locations">
+<h3>Locations</h3>
+<p id="location_list"></p>
+</div>
+
+
+
+
+<a class="button" id="get-cords">Get Cords</a>
+<h3> Step 2 </h3>
+<h3>Enter kilotons of TNT</h3>
+<p>Or select a template</p>
+<label for="kt" >KT    </label>
+<input type="text" name="kt" id="kt">
+<br>
+<br>
+<div class="dropdown" id="nuke">
+<span class="dropdown-title">Select Nuke</span>
+<div class="dropdown-content">
+		<p value=".02">"Davy Crockett" - smallest US bomb produced (20 t)</p>
+		<p value=".1">Crude nuclear terrorist weapon (100 t)</p>
+		<p value=".3">B-61 Mod 3 (lowest yield currently in US arsenal) (300 t)</p>
+		<p value=".5">North Korean weapon tested in 2006 (500 t)</p>
+		<p value="6">North Korean weapon tested in 2009 (6 kt)</p>
+		<p value="10">North Korean weapon tested in 2013 (10 kt)</p>
+		<p value="10">Improvised HEU device - nuclear terrorism (10 kt)</p>
+		<p value="15">"Little Boy" - Hiroshima bomb (15 kt)</p>
+		<p value="20">"Gadget" - Trinity test (20 kt)</p>
+		<p value="20">"Fat Man" - Nagasaki bomb (20 kt)</p>
+		<p value="45">Largest Pakistani weapon tested (45 kt)</p>
+		<p value="60">Largest Indian weapon tested (60 kt)</p>
+		<p value="100">W-76 (common in US &amp; UK SLBM arsenal) (100 kt)</p>
+		<p value="150">North Korean weapon tested in 2017 (150 kt?)</p>
+		<p value="150">W-80 (currently in US arsenal, cruise missile) (150 kt)</p>
+		<p value="300">W-87 (currently in US arsenal, Minuteman III) (300 kt)</p>
+		<p value="300">TN 80/81 (largest current French warhead) (300 kt)</p>
+		<p value="340">B-61 Mod 7 (currently in US arsenal) (340 kt)</p>
+		<p value="350">W-78 (currently in US arsenal, Minuteman III) (350 kt)</p>
+		<p value="455">W-88 (Trident D5 warhead) (455 kt)</p>
+		<p value="500">"Ivy King" - largest pure fission weapon tested by USA (500 kt)</p>
+		<p value="800">Topol (SS-25) (currently in Russian arsenal) (800 kt)</p>
+		<p value="1000">W-59 (Minuteman I warhead) (1 Mt)</p>
+		<p value="1200">B-83 (largest bomb in current US arsenal) (1.2 Mt)</p>
+		<p value="2300">R-12 (SS-4) Soviet missile, Cuban missile crisis (2.42 Mt)</p>
+		<p value="3300">Dong Feng-4, China's first deployed ICBM (3.3 Mt)</p>
+		<p value="4000">W-39, US H-bomb, almost accidentally detonated in 1961 (4 Mt)</p>
+		<p value="5000">Dong Feng-5, China's current ICBMs (5 Mt)</p>
+		<p value="9000">W-53 (Titan II warhead, highest yield ICBM US deployed) (9 Mt)</p>
+		<p value="10400">"Ivy Mike" - first H-bomb (10.4 Mt)</p>
+		<p value="15000">"Castle Bravo" - largest US bomb tested (15 Mt)</p>
+		<p value="50000">"Tsar Bomba" - largest USSR bomb tested (50 Mt)</p>
+		<p value="100000">"Tsar Bomba" - largest USSR bomb designed (100 Mt)</p>
+</div>
+</div>
+<p>Nuke Type</p>
+<label for="surface">Surface</label>
+<input type="checkbox" name="surface" value="airburst">
+<label for="airburst">Airburst</label>
+<input type="checkbox" name="airburst">
+<p>Other Options</p>
+<label for="casualties">Casualties</label>
+<input type="checkbox" name="casualties">
+<label for="fallout">Nuclear Fallout</label>
+<input type="checkbox" name="fallout">
+<br>
+<label for="multiple">Launch Multiple</label>
+<input type="checkbox" name="multiple">
+
+<br>
+<br>
+<a id="launch">LAUNCH NUKE</a>
+
+</div>
+<div class="container" id="slide2">
+<h3>Nuke Impact In </h3>
+<img src="countdown.gif" width="200" height="200">
+
+</div>
+
+<div class="container" id="slide3">
+
+
+
+<div class="death-container">
+<div class="l-col">
+
+</div>
+<div class="r-col">
+<h5>Total Deaths</h5>
+<h1 id="death-count">0</h1>
+</div>
+</div>
+
+<div class="injury-container">
+<div class="l-col">
+
+</div>
+<div class="r-col">
+<h5>Total Injuries</h5>
+<h1 id="injury-count">0</h1>
+</div>
+</div>
+
+<a class="button" id="again">Bomb more innocent people</a>
+
+
+</div>
+<script src="index.js"></script>
+<script>
+myMap();
+</script>
+
+
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe_rZWYaoFlIB-Qlgbr4E9AaBJe9WyGDg&callback=myMap"></script>-->
+<script src="events.js"></script>
+
+
+</body>
+</html>

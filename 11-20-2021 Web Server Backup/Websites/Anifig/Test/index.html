@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vtuber Testing</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+
+html body {
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+display: block;
+}
+
+  .header {
+  background-color: #ffc20e;
+  width: 100%;
+  height: 10%;
+  }
+  
+    body {
+      background-color: #ffc20e;
+    }
+
+	
+	.links {
+        height: 10%;
+        width: 100%;
+	color: white;
+	font-family: Roboto;
+	font-size: 150%;
+	background-color: #6a737b;
+        text-decoration: none;
+	}
+
+     a:hover {
+     transition: 0.3s ease all;
+     --webkit-transition: 0.3s ease all;
+     --moz-webkit-transiotion: 0.3s ease all;
+     }
+
+.content {
+display: flex;
+width: 100%;
+height: 80%;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+.header {
+width: 100%;
+height 10%;
+background-color: #0f0f0f;
+color: white;
+}
+
+  </style>
+</head>
+<body>
+<header class="header">
+<div class="logo"> 
+<img src="img/logo.svg"></img>
+</div>
+</header>
+<div class="content">
+<div class="video-container">
+  <video id="video" width="1280" height="720" autoplay muted></video>
+</div>
+<div class="vtuber-container">
+<canvas id="vtuber"></canvas>
+</div>
+</div>
+
+<nav class="links">
+<a href="../">Go Home</a>
+<a href="../Editor">Editor</a>
+<a href="../Editor">Player</a>
+<a href="Login">Login/Register</a>
+</nav>
+</body>
+</html>

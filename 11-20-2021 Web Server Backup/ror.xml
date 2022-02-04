@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://sahu.me/</title>
+  <link>http://sahu.me/</link>
+
+<item>
+     <link>http://sahu.me/</link>
+     <title>Sahu.me</title>
+     <description>The website of Binayak Sahu</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/Pong/</link>
+     <title>Pong</title>
+     <description>One of the earliest video games in existence. This game was the game that made video games mainstream. It is a 2D table tennis game in which the player must make the ball go to the opponent's side.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=N;O=D</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=M;O=A</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=S;O=A</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=D;O=A</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=N;O=D</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=M;O=A</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=S;O=A</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=D;O=A</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=N;O=A</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=M;O=D</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=S;O=D</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Websites/?C=D;O=D</link>
+     <title>Index of /Websites</title>
+     <description>Index of /Websites</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=N;O=A</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=M;O=D</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=S;O=D</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sahu.me/Games/?C=D;O=D</link>
+     <title>Index of /Games</title>
+     <description>Index of /Games</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
