@@ -1,0 +1,55 @@
+@import url('fonts/Lato-Regular.ttf');
+
+html body {
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.window-button {
+	width: 20px;
+	height: 20px;
+	
+}
+
+.window-controls {
+	float: left;
+	padding-top: 0.5%;
+	width: 5%;
+	
+}
+
+.title{
+	float: left;
+	padding-top: 7px;
+	width: 95%;
+	text-align: center;
+	color: white;
+	font-family: Lato-Regular;
+	height: auto;
+
+	
+}
+
+.top-header {
+	background-color: #007cc0;
+	width: 100%;
+	height: 35px;
+	float: left;
+	
+	
+}
+
+.help {
+	float: left;
+	width: 10%;
+	height: auto;
+	
+}
+
+.menu-dropdown {
+	padding-top: 10px;
+	float: left;
+	padding-left: 20px;
+	display: grid;
+}

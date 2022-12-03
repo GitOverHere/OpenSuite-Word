@@ -1,0 +1,14 @@
+{
+  "name": "openstudio-word",
+  "version": "0.1.0",
+  "description": "A word application that allows you to type words.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GitOverHere",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^8.0.1"
+  }
+}
